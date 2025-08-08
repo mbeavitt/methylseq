@@ -166,7 +166,7 @@
                 "nf-core": {
                     "fasta_index_bismark_bwameth": {
                         "branch": "master",
-                        "git_sha": "8784324692c94acd129d583cb64e30a64ff197d9",
+                        "git_sha": "8777e22535c73a773124f70a5a82be121394a66b",
                         "installed_by": ["subworkflows"]
                     },
                     "fastq_align_dedup_bismark": {
