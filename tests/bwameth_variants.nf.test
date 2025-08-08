@@ -15,7 +15,7 @@ nextflow_pipeline {
         ],
         [
             name: "bwameth_mem2",
-            description: "Params: bwameth",
+            description: "Params: bwameth with mem2 index",
             params: [
                 aligner: "bwameth",
                 use_mem2: true
