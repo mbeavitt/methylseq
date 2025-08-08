@@ -118,6 +118,12 @@
                     "help_text": "Directory for a bwa-meth genome reference index. Only used when using the bwa-meth aligner.\n\nNote that this is not a complete path, but the directory containing the reference. For example, if you have file paths such as `/path/to/ref/genome.fa.bwameth.c2t.bwt`, you should specify `/path/to/ref/`.",
                     "fa_icon": "far fa-dot-circle"
                 },
+                "use_mem2": {
+                    "type": "boolean",
+                    "description": "bwameth index filename base",
+                    "help_text": "Whether to use mem2 to generate the bwa index (and mem2 for the subsequent alignment using bwameth). Ignored if an index is already supplied using params.bwameth_index",
+                    "fa_icon": "far fa-dot-circle"
+                },
                 "igenomes_ignore": {
                     "type": "boolean",
                     "description": "Do not load the iGenomes reference config.",
